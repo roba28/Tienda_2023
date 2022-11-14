@@ -24,5 +24,12 @@ public class LoginController {
   //  model.addAttribute("Evento",listaEventos);
     return "Sliderbar";
     }
+    @GetMapping("/ResetPassword")
+    public String ResetPassword(){
+   // List<evento> listaEventos=eventoService.getAllevents();
+   // model.addAttribute("Titulo","Lista de Eventos");
+  //  model.addAttribute("Evento",listaEventos);
+    return "ResetPassword";
+    }
     
 }
