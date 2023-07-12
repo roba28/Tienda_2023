@@ -3,7 +3,7 @@
     box-sizing: border-box;
     
 }
-body{
+body {
     font-family: sans-serif;
     padding: 10px 20px 0px;
     
@@ -70,11 +70,11 @@ body{
    bottom: 8%;
 }
 .footer{
-    position: fixed;
     bottom: 0%;
     height: 8%;
     left: 0;
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
 }
